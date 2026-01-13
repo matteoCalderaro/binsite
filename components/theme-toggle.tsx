@@ -4,7 +4,7 @@ import { Moon, Sun } from "lucide-react"
 import { useEffect, useState } from "react"
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<"light" | "dark">("dark")
+  const [theme, setTheme] = useState<'light' | 'dark'>("light")
 
   useEffect(() => {
     // Check localStorage and system preference on mount
